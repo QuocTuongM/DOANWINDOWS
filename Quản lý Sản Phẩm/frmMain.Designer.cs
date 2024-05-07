@@ -87,7 +87,7 @@
             // 
             this.mnuThoat.Name = "mnuThoat";
             this.mnuThoat.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.mnuThoat.Size = new System.Drawing.Size(224, 26);
+            this.mnuThoat.Size = new System.Drawing.Size(183, 26);
             this.mnuThoat.Text = "Thoát";
             this.mnuThoat.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -116,13 +116,12 @@
             this.mnuLaptop.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F5)));
             this.mnuLaptop.Size = new System.Drawing.Size(224, 26);
             this.mnuLaptop.Text = "&Laptop";
-
+            this.mnuLaptop.Click += new System.EventHandler(this.mnuLaptop_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(221, 6);
-  
             // 
             // mnuNhanVien
             // 
@@ -147,7 +146,7 @@
             // mnuHoaDonBan
             // 
             this.mnuHoaDonBan.Name = "mnuHoaDonBan";
-            this.mnuHoaDonBan.Size = new System.Drawing.Size(224, 26);
+            this.mnuHoaDonBan.Size = new System.Drawing.Size(181, 26);
             this.mnuHoaDonBan.Text = "&Hóa Đơn Bán";
             // 
             // mnuTimKiem
@@ -163,19 +162,19 @@
             // mnuFindHoaDon
             // 
             this.mnuFindHoaDon.Name = "mnuFindHoaDon";
-            this.mnuFindHoaDon.Size = new System.Drawing.Size(224, 26);
+            this.mnuFindHoaDon.Size = new System.Drawing.Size(172, 26);
             this.mnuFindHoaDon.Text = "&Hóa Đơn ";
             // 
             // mnuFindHang
             // 
             this.mnuFindHang.Name = "mnuFindHang";
-            this.mnuFindHang.Size = new System.Drawing.Size(224, 26);
+            this.mnuFindHang.Size = new System.Drawing.Size(172, 26);
             this.mnuFindHang.Text = "&Hàng";
             // 
             // mnuFindKhachHang
             // 
             this.mnuFindKhachHang.Name = "mnuFindKhachHang";
-            this.mnuFindKhachHang.Size = new System.Drawing.Size(224, 26);
+            this.mnuFindKhachHang.Size = new System.Drawing.Size(172, 26);
             this.mnuFindKhachHang.Text = "&Khách Hàng";
             // 
             // mnuBaoCao
@@ -190,13 +189,13 @@
             // mnuBCHangTon
             // 
             this.mnuBCHangTon.Name = "mnuBCHangTon";
-            this.mnuBCHangTon.Size = new System.Drawing.Size(224, 26);
+            this.mnuBCHangTon.Size = new System.Drawing.Size(164, 26);
             this.mnuBCHangTon.Text = "&Hàng Tốn";
             // 
             // mnuBCDoanhThu
             // 
             this.mnuBCDoanhThu.Name = "mnuBCDoanhThu";
-            this.mnuBCDoanhThu.Size = new System.Drawing.Size(224, 26);
+            this.mnuBCDoanhThu.Size = new System.Drawing.Size(164, 26);
             this.mnuBCDoanhThu.Text = "&Doanh Thu";
             // 
             // mnuTroGiup
@@ -211,13 +210,13 @@
             // mnuHienTroGiup
             // 
             this.mnuHienTroGiup.Name = "mnuHienTroGiup";
-            this.mnuHienTroGiup.Size = new System.Drawing.Size(224, 26);
+            this.mnuHienTroGiup.Size = new System.Drawing.Size(148, 26);
             this.mnuHienTroGiup.Text = "&Trợ Giúp";
             // 
             // mnuVaiNet
             // 
             this.mnuVaiNet.Name = "mnuVaiNet";
-            this.mnuVaiNet.Size = new System.Drawing.Size(224, 26);
+            this.mnuVaiNet.Size = new System.Drawing.Size(148, 26);
             this.mnuVaiNet.Text = "&Vài Nét";
             // 
             // toolStrip1

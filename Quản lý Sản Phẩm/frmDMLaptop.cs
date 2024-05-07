@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient; //Sử dụng thư viện để làm việc SQL server
 using System.Runtime.InteropServices; //Sử dụng class 
 
+
 namespace Quản_lý_Sản_Phẩm
 {
     public partial class frmDMLaptop : Form
@@ -80,7 +81,7 @@ namespace Quản_lý_Sản_Phẩm
            //     return;
            // }
 
-            sql = "INSERT INTO tblChatLieu VALUES(N'" +
+            sql = "INSERT INTO tblDMLaptop VALUES(N'" +
                 txtMaLaptop.Text + "',N'" + txtTenLaptop.Text + "')";
            // Class.Functions.RunSQL(sql); //Thực hiện câu lệnh sql
            // LoadDataGridView(); //Nạp lại DataGridView
@@ -97,7 +98,6 @@ namespace Quản_lý_Sản_Phẩm
         {
             SqlCommand cmd; //Đối tượng thuộc lớp SqlCommand
             cmd = new SqlCommand();
-            cmd.Connection = con; //Gán kết nối
             cmd.CommandText = sql; //Gán lệnh SQL
             try
             {
@@ -129,13 +129,34 @@ namespace Quản_lý_Sản_Phẩm
                 MessageBox.Show("Bạn chưa nhập tên chất liệu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-            sql = "UPDATE tblChatLieu SET TenChatLieu=N'" +
+            sql = "UPDATE tblLaptop SET TenLaptop=N'" +
                 txtTenLaptop.Text.ToString() +
-                "' WHERE MaChatLieu=N'" + txtTenLaptop.Text + "'";
+                "' WHERE MaLaptop=N'" + txtTenLaptop.Text + "'";
 
             ResetValue();
 
             btnBoQua.Enabled = false;
+        }
+
+        private void frmDMLaptop_Load(object sender, EventArgs e)
+        {
+            txtMaLaptop.Enabled = false;
+            btnLuu.Enabled = false;
+            btnBoQua.Enabled = false;
+            LoadDataGridView(); //Hiển thị bảng tblChatLieu
+        }
+        private void LoadDataGridView()
+        {
+            string sql;
+            sql = "SELECT MaLaptop, TenLaptop FROM tblLaptop";
+            tblLT =  //Đọc dữ liệu từ bảng
+            dgvLaptop.DataSource = tblLT; //Nguồn dữ liệu            
+            dgvLaptop.Columns[0].HeaderText = "Mã Latop";
+            dgvLaptop.Columns[1].HeaderText = "Mã Laptop";
+            dgvLaptop.Columns[0].Width = 100;
+            dgvLaptop.Columns[1].Width = 300;
+            dgvLaptop.AllowUserToAddRows = false; //Không cho người dùng thêm dữ liệu trực tiếp
+            dgvLaptop.EditMode = DataGridViewEditMode.EditProgrammatically; //Không cho sửa dữ liệu trực tiếp
         }
     }
 }

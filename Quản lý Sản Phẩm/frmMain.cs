@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using Quản_lý_Sản_Phẩm.DataAcess__DAL_;
 
 
 namespace Quản_lý_Sản_Phẩm
@@ -19,7 +20,7 @@ namespace Quản_lý_Sản_Phẩm
         {
             InitializeComponent();
         }
-
+        
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -28,6 +29,12 @@ namespace Quản_lý_Sản_Phẩm
         private void danhMụcToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void mnuLaptop_Click(object sender, EventArgs e)
+        {
+            frmDMLaptop frmDMLaptop = new frmDMLaptop(); //Khởi tạo đối tượng
+            frmDMLaptop.ShowDialog(); //Hiển thị
         }
     }
 }

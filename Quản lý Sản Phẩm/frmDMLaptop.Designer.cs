@@ -58,14 +58,14 @@
             this.panel1.Controls.Add(this.btnThem);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 620);
+            this.panel1.Location = new System.Drawing.Point(0, 523);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1298, 100);
+            this.panel1.Size = new System.Drawing.Size(1174, 100);
             this.panel1.TabIndex = 2;
             // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(1146, 31);
+            this.btnDong.Location = new System.Drawing.Point(1023, 31);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(106, 46);
             this.btnDong.TabIndex = 5;
@@ -74,7 +74,7 @@
             // 
             // btnBoQua
             // 
-            this.btnBoQua.Location = new System.Drawing.Point(939, 31);
+            this.btnBoQua.Location = new System.Drawing.Point(846, 31);
             this.btnBoQua.Name = "btnBoQua";
             this.btnBoQua.Size = new System.Drawing.Size(106, 46);
             this.btnBoQua.TabIndex = 4;
@@ -83,7 +83,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(721, 31);
+            this.btnLuu.Location = new System.Drawing.Point(660, 31);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(106, 46);
             this.btnLuu.TabIndex = 3;
@@ -93,7 +93,7 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(487, 31);
+            this.btnSua.Location = new System.Drawing.Point(447, 31);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(106, 46);
             this.btnSua.TabIndex = 2;
@@ -103,7 +103,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(273, 31);
+            this.btnXoa.Location = new System.Drawing.Point(255, 31);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(106, 46);
             this.btnXoa.TabIndex = 1;
@@ -139,7 +139,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1298, 137);
+            this.panel2.Size = new System.Drawing.Size(1174, 137);
             this.panel2.TabIndex = 0;
             // 
             // txtTenLaptop
@@ -195,7 +195,7 @@
             this.dgvLaptop.Name = "dgvLaptop";
             this.dgvLaptop.RowHeadersWidth = 51;
             this.dgvLaptop.RowTemplate.Height = 24;
-            this.dgvLaptop.Size = new System.Drawing.Size(1298, 483);
+            this.dgvLaptop.Size = new System.Drawing.Size(1174, 386);
             this.dgvLaptop.TabIndex = 0;
             this.dgvLaptop.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLaptop_CellContentClick);
             // 
@@ -203,12 +203,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1298, 720);
+            this.ClientSize = new System.Drawing.Size(1174, 623);
             this.Controls.Add(this.dgvLaptop);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "frmDMLaptop";
             this.Text = "Danh Mục Laptop";
+            this.Load += new System.EventHandler(this.frmDMLaptop_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
