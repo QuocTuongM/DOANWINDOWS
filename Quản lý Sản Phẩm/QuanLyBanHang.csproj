@@ -47,69 +47,69 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAcess %28DAL%29\DataProvider.cs" />
-    <Compile Include="frmDMHangHoa.cs">
+    <Compile Include="GUI\frmDMHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDMHangHoa.Designer.cs">
+    <Compile Include="GUI\frmDMHangHoa.Designer.cs">
       <DependentUpon>frmDMHangHoa.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDMKhachHang.cs">
+    <Compile Include="GUI\frmDMKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDMKhachHang.Designer.cs">
+    <Compile Include="GUI\frmDMKhachHang.Designer.cs">
       <DependentUpon>frmDMKhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDMLaptop.cs">
+    <Compile Include="GUI\frmDMLaptop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDMLaptop.Designer.cs">
+    <Compile Include="GUI\frmDMLaptop.Designer.cs">
       <DependentUpon>frmDMLaptop.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDMNhanVien.cs">
+    <Compile Include="GUI\frmDMNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDMNhanVien.Designer.cs">
+    <Compile Include="GUI\frmDMNhanVien.Designer.cs">
       <DependentUpon>frmDMNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHoaDonBan.cs">
+    <Compile Include="GUI\frmHoaDonBan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHoaDonBan.Designer.cs">
+    <Compile Include="GUI\frmHoaDonBan.Designer.cs">
       <DependentUpon>frmHoaDonBan.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMain.cs">
+    <Compile Include="GUI\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
+    <Compile Include="GUI\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTimKiemHoaDon.cs">
+    <Compile Include="GUI\frmTimKiemHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTimKiemHoaDon.Designer.cs">
+    <Compile Include="GUI\frmTimKiemHoaDon.Designer.cs">
       <DependentUpon>frmTimKiemHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmDMHangHoa.resx">
+    <EmbeddedResource Include="GUI\frmDMHangHoa.resx">
       <DependentUpon>frmDMHangHoa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDMKhachHang.resx">
+    <EmbeddedResource Include="GUI\frmDMKhachHang.resx">
       <DependentUpon>frmDMKhachHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDMLaptop.resx">
+    <EmbeddedResource Include="GUI\frmDMLaptop.resx">
       <DependentUpon>frmDMLaptop.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDMNhanVien.resx">
+    <EmbeddedResource Include="GUI\frmDMNhanVien.resx">
       <DependentUpon>frmDMNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHoaDonBan.resx">
+    <EmbeddedResource Include="GUI\frmHoaDonBan.resx">
       <DependentUpon>frmHoaDonBan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
+    <EmbeddedResource Include="GUI\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTimKiemHoaDon.resx">
+    <EmbeddedResource Include="GUI\frmTimKiemHoaDon.resx">
       <DependentUpon>frmTimKiemHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -136,7 +136,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BussinessLayer%28BLL%29\" />
-    <Folder Include="GUI\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
