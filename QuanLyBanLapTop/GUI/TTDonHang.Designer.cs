@@ -113,9 +113,9 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(457, 475);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(63, 16);
+            this.label11.Size = new System.Drawing.Size(66, 16);
             this.label11.TabIndex = 30;
-            this.label11.Text = "Tổng tiền";
+            this.label11.Text = "Tổng tiền:";
             // 
             // dt_ngay
             // 
@@ -129,9 +129,9 @@
             this.lable11.AutoSize = true;
             this.lable11.Location = new System.Drawing.Point(457, 314);
             this.lable11.Name = "lable11";
-            this.lable11.Size = new System.Drawing.Size(69, 16);
+            this.lable11.Size = new System.Drawing.Size(72, 16);
             this.lable11.TabIndex = 27;
-            this.lable11.Text = "Ngày mua";
+            this.lable11.Text = "Ngày mua:";
             // 
             // tb_user
             // 
@@ -152,18 +152,18 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(35, 393);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(58, 16);
+            this.label10.Size = new System.Drawing.Size(61, 16);
             this.label10.TabIndex = 24;
-            this.label10.Text = "Mã User";
+            this.label10.Text = "Mã User:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(35, 311);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(98, 16);
+            this.label9.Size = new System.Drawing.Size(101, 16);
             this.label9.TabIndex = 23;
-            this.label9.Text = "Mã khách hàng";
+            this.label9.Text = "Mã khách hàng:";
             // 
             // tb_timdh
             // 
@@ -177,18 +177,18 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(35, 266);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 16);
+            this.label8.Size = new System.Drawing.Size(108, 16);
             this.label8.TabIndex = 21;
-            this.label8.Text = "Tìm ID đơn hàng";
+            this.label8.Text = "Tìm ID đơn hàng:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(457, 440);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 16);
+            this.label7.Size = new System.Drawing.Size(44, 16);
             this.label7.TabIndex = 20;
-            this.label7.Text = "Email";
+            this.label7.Text = "Email:";
             // 
             // tb_email
             // 
@@ -202,45 +202,45 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(457, 399);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 16);
+            this.label6.Size = new System.Drawing.Size(88, 16);
             this.label6.TabIndex = 17;
-            this.label6.Text = "Số điện thoại";
+            this.label6.Text = "Số điện thoại:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(35, 434);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 16);
+            this.label5.Size = new System.Drawing.Size(50, 16);
             this.label5.TabIndex = 16;
-            this.label5.Text = "Địa chỉ";
+            this.label5.Text = "Địa chỉ:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(35, 469);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 16);
+            this.label4.Size = new System.Drawing.Size(96, 16);
             this.label4.TabIndex = 15;
-            this.label4.Text = "Tên sản phẩm";
+            this.label4.Text = "Tên sản phẩm:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(457, 360);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 16);
+            this.label3.Size = new System.Drawing.Size(63, 16);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Số lượng";
+            this.label3.Text = "Số lượng:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(35, 360);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 16);
+            this.label2.Size = new System.Drawing.Size(106, 16);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Tên khách hàng";
+            this.label2.Text = "Tên khách hàng:";
             // 
             // tb_sl
             // 

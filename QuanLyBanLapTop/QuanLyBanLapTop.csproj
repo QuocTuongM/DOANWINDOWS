@@ -53,11 +53,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\DataProvider.cs" />
-    <Compile Include="GUI\DangNhap.cs">
+    <Compile Include="GUI\TKKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\DangNhap.Designer.cs">
-      <DependentUpon>DangNhap.cs</DependentUpon>
+    <Compile Include="GUI\TKKhachHang.Designer.cs">
+      <DependentUpon>TKKhachHang.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\SanPham.cs">
       <SubType>Form</SubType>
@@ -85,8 +85,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GUI\DangNhap.resx">
-      <DependentUpon>DangNhap.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\TKKhachHang.resx">
+      <DependentUpon>TKKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\SanPham.resx">
       <DependentUpon>SanPham.cs</DependentUpon>
@@ -125,7 +125,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BUS\" />
-    <Folder Include="DTO\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

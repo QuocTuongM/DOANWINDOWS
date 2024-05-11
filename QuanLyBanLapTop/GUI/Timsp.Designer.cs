@@ -84,9 +84,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(36, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 16);
+            this.label2.Size = new System.Drawing.Size(115, 16);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Mã, tên sản phẩm";
+            this.label2.Text = "Mã, tên sản phẩm:";
             // 
             // label1
             // 
